@@ -10,3 +10,5 @@ if (number == 1) {
 } else {
   console.log("number 는 1,2,3 외 다른 숫자입니다.");
 }
+
+console.log(number);
