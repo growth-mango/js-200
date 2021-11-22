@@ -16,7 +16,10 @@ family.addFamily(30, "chole", "aunt");
 family.addFamily(3, "lyne", "niece");
 family.addFamily(19, "cholong", "dog");
 //console.log(family.getHeadCount());
+console.log(family.addFamily);
+console.log(family.members);
 
+/*
 const printMembers = function () {
   const members = family.members;
   for (role in members) {
@@ -40,3 +43,4 @@ members.niece = { age: 5, name: "lyn" };
 //오브젝트 프로퍼티 삭제
 delete members.aunt;
 printMembers();
+*/
