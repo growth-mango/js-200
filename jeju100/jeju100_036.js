@@ -9,8 +9,17 @@ for (let i = 1; i <= 9; i++) {
 console.log(result);
 */
 
+// const dan = 2;
+// let result = "";
+
+// for (let i = 1; i <= 9; i++) {
+//   result = result + dan * i + " ";
+// }
+
+// console.log(result);
+
 const dan = 2;
-let result = "";
+let result = " ";
 
 for (let i = 1; i <= 9; i++) {
   result = result + dan * i + " ";
