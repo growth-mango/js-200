@@ -18,3 +18,23 @@ for (let i = 1; i <= limitPeople; i++) {
 
 console.log(totalWeight);
 console.log(count);
+
+const limitWeight = 50;
+const peopleCount = 5;
+let count = 0;
+
+function program(limitWeight, n, ...weights) {
+  let count = 0;
+  let weightCount = 0;
+
+  weights.forEach((weight, i) => {
+    if (limitWeight > weightCount && limitWeight > weightCount + weight) {
+      count++;
+      weightCount += weight;
+    }
+  });
+
+  console.log(count);
+}
+
+program(50, 5, 20, 20, 20, 20, 20);
