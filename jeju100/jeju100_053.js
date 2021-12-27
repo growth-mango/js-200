@@ -31,11 +31,11 @@ function mathBrackets(arr) {
   }
 }
 
-const n = "(((())".split("");
-console.log(n);
-console.log(mathBrackets(n));
+const arr = " ".split("");
+console.log(arr);
+console.log(mathBrackets(arr));
 
-if (mathBrackets(n) === true) {
+if (mathBrackets(arr) === true) {
   console.log("YES");
 } else {
   console.log("NO");

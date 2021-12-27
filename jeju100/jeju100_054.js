@@ -25,11 +25,14 @@ console.log(num);
 
 function program(num) {
   //value, index
-  num.forEach((val, ind) => {
-    if (Number(val + 1) !== Number(ind + 1) - 1) {
-      return "NO";
+  num.forEach((val, ind, arr) => {
+      if(Number(ind) === Number(arr.length-1)){
+          return 
+      }
+        if (Number(val + 1) !== Number(arr[ind + 1])) {
+            return "NO";
+      }
     }
-  });
   return "YES";
 }
 
